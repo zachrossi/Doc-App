@@ -1,8 +1,13 @@
+body{
+    margin-top: 30vh;
+    background-color: whitesmoke;
+}
 section {
     text-align: center;
 }
 form {
-    width: 20%;
+    min-width: 300px;
+    max-width: 20%;
     margin: auto;
 }
 input {
@@ -15,6 +20,11 @@ input {
     box-sizing: border-box;
     width: 100%;
     color: white;
+    cursor: pointer;
+}
+#btnSubmit:hover {
+    background-color: #86f774;
+    color:black;
 }
 #txtpassword {
     border: solid 1px #dddddd;
