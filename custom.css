@@ -1,0 +1,28 @@
+section {
+    text-align: center;
+}
+form {
+    width: 20%;
+    margin: auto;
+}
+input {
+    padding: 1em;
+}
+#btnSubmit {
+    border: solid 1px #dddddd;
+    background-color: darkorchid;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+}
+#txtpassword {
+    border: solid 1px #dddddd;
+    width: 100%;
+    box-sizing: border-box;
+}
+#txtUsername {
+    border: solid 1px #dddddd;
+    width: 100%;
+    box-sizing: border-box;
+}
